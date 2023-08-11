@@ -2,7 +2,7 @@
 
 ![Weather App Preview](link-to-preview-webpage)
 
-A weather app based on the curriculum from [The Odin Project JavaScript Course](https://www.theodinproject.com/lessons/node-path-javascript-weather-app). This app demonstrates the use of APIs to provide weather data for a specified location. 
+A weather app based on the curriculum from [The Odin Project JavaScript Course](https://www.theodinproject.com/lessons/node-path-javascript-weather-app). This app demonstrates the use of API to provide weather data for a specified location. 
 
 ## Features
 
