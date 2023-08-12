@@ -1,6 +1,6 @@
 # Weather App
 
-![Weather App Preview](link-to-preview-webpage)
+![Weather App Preview](https://victorbenedict.github.io/Project-Weather-App/)
 
 A weather app based on the curriculum from [The Odin Project JavaScript Course](https://www.theodinproject.com/lessons/node-path-javascript-weather-app). This app demonstrates the use of API to provide weather data for a specified location. 
 
