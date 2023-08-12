@@ -69,7 +69,7 @@ function render() {
 
 function showlocationrequest() {
   locationUserRequest = searchbar.value
-  API_CallURL = `https://api.weatherapi.com/v1/current.json?key=62f24f38c2764275bec14014232407&q=${locationUserRequest}&aqi=no`
+  API_CallURL = `  https://api.weatherapi.com/v1/current.json?key=62f24f38c2764275bec14014232407&q=${locationUserRequest}&aqi=no`
   searchbar.value = ""
   fetchWeather();
   cl('fn-showlocationrequest')
