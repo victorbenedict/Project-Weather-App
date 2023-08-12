@@ -18,13 +18,13 @@ let locationUserRequest = 'Dadiangas'
 let API_CallURL = `https://api.weatherapi.com/v1/current.json?key=62f24f38c2764275bec14014232407&q=Dadiangas&aqi=no`
 
 function fetchWeather() {
-  toggleLoading()
+  showLoading()
   fetch(API_CallURL, {
     mode: 'cors'
     }).then(function(response) {
       // Successful response :)
       cl('Successful')
-      toggleLoading()
+      hideLoading()
       return response.json();
     }).then(function(response) {
       cl(response);
@@ -36,9 +36,11 @@ function fetchWeather() {
       tempfeels_c = response.current.feelslike_c
       tempfeels_f = response.current.feelslike_f
       humidity = response.current.humidity
+      hideLoading()
       render()
     }).catch(function(err) {
       cl('Error');
+      showLoading()
     });
   cl('fn-fetchWeather')
 }
@@ -95,10 +97,17 @@ function toggleTempUnit() {
   cl('fn-toggleTempUnit')
 }
 
-function toggleLoading() {
+function showLoading() {
   const loading_div = document.getElementById('loading')
   content.innerHTML = ""
-  loading_div.classList.toggle('hidden')
+  loading_div.classList.remove('hidden')
+  loading_div.classList.add('show')
+}
+function hideLoading() {
+  const loading_div = document.getElementById('loading')
+  content.innerHTML = ""
+  loading_div.classList.remove('show')
+  loading_div.classList.add('hidden')
 }
 
 //event

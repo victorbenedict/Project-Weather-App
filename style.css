@@ -15,6 +15,10 @@ main {
   display: none;
 }
 
+.show {
+  display: inline;
+}
+
 footer {
   display: flex;
   flex-direction: column;
