@@ -9,8 +9,8 @@ A weather app based on the curriculum from [The Odin Project JavaScript Course](
 - Search weather by location
 - Temperature toggle (Fahrenheit/Celsius)
 - Loading indicator during data fetch
-- Weather-themed background
-- Local storage for the previous search location
+- Weather-themed background (Work in Progress)
+- Local storage for the previous search location (Work in Progress)
 
 ## Credits
 - [The Odin Project](https://www.theodinproject.com) for the curriculum.

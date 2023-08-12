@@ -10,6 +10,11 @@ main {
   flex-grow: 1;
 }
 
+
+.hidden {
+  display: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
