@@ -10,7 +10,7 @@ A weather app based on the curriculum from [The Odin Project JavaScript Course](
 - Temperature toggle (Fahrenheit/Celsius)
 - Loading indicator during data fetch
 - Weather-themed background
-- Local storage for the previous search locations
+- Local storage for the previous search location
 
 ## Credits
 - [The Odin Project](https://www.theodinproject.com) for the curriculum.
