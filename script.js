@@ -13,7 +13,7 @@ let humidity
 
 //Set default
 let locationUserRequest = 'Dadiangas'
-let API_CallURL = `http://api.weatherapi.com/v1/current.json?key=62f24f38c2764275bec14014232407&q=Dadiangas&aqi=no`
+let API_CallURL = `https://api.weatherapi.com/v1/current.json?key=62f24f38c2764275bec14014232407&q=Dadiangas&aqi=no`
 
 function fetchWeather() {
   fetch(API_CallURL, {
@@ -69,7 +69,7 @@ function render() {
 
 function showlocationrequest() {
   locationUserRequest = searchbar.value
-  API_CallURL = `http://api.weatherapi.com/v1/current.json?key=62f24f38c2764275bec14014232407&q=${locationUserRequest}&aqi=no`
+  API_CallURL = `https://api.weatherapi.com/v1/current.json?key=62f24f38c2764275bec14014232407&q=${locationUserRequest}&aqi=no`
   searchbar.value = ""
   fetchWeather();
   cl('fn-showlocationrequest')
