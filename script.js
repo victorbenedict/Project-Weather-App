@@ -99,13 +99,11 @@ function toggleTempUnit() {
 
 function showLoading() {
   const loading_div = document.getElementById('loading')
-  content.innerHTML = ""
   loading_div.classList.remove('hidden')
   loading_div.classList.add('show')
 }
 function hideLoading() {
   const loading_div = document.getElementById('loading')
-  content.innerHTML = ""
   loading_div.classList.remove('show')
   loading_div.classList.add('hidden')
 }
